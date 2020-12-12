@@ -3,7 +3,7 @@ class EmailAddress < ApplicationRecord
   before_create :set_verification_status
 
   def check_status
-    'valid'
+    self.address.match(URI::MailTo::EMAIL_REGEXP) ? 'valid' : 'invalid'
   end
 
   private
