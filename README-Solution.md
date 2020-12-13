@@ -1,4 +1,5 @@
 # README-Solution
+
 There were a lot of new things I learned from this challenge and my main focus was learning more about the environment I was working in. Because this challenges was using Docker as a main technology I tried my best to figure out how it works and why it is important.
 Upon my research I learned that docker can actually be quite useful for giving you a shell of the application you are working on. This shell allows you to make changes to the app you are working on without effecting other dependencies you my have in place in larger scale applications. This is how I understood it best.
 I have also never used Postman before and when I spent time working on it I learned that you can create a custom API call that will help test the endpoints in your application. This could be beneficial if you are debugging a certain API endpoint within your app because it allows you to isolate the specific endpoint you are working with.
